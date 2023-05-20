@@ -83,4 +83,8 @@ app.use(function(req, res){ //nasze własne middleware, wyświetli błąd 404 w 
     res.render("404");
 });
 
+app.use(function(error, req, res, next){ //"next" allows to have multiple middlewares that will work together
+    res.render("500");
+});
+
 app.listen(3000);
