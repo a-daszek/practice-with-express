@@ -7,7 +7,7 @@
     "start": "nodemon app.js"
   },
   "keywords": [],
-  "author": "Maximilian Schwarzmüller (Academind GmbH)",
+  "author": "Anna Daszyńska",
   "license": "MIT",
   "dependencies": {
     "ejs": "^3.1.9",
